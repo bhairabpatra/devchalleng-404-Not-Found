@@ -1,0 +1,115 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  text-align: left;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 30px 0px 0px 30px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.page {
+  min-height: 90vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pagenot_found_wrapper {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.pagenot_found_body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.left_side_panel {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left_side_panel img {
+  width: 80%;
+}
+
+.right_side_panel {
+  padding: 10px;
+}
+
+.headinhg {
+  font-size: 27px;
+  padding-bottom: 30px;
+  font-family: 'Space Mono', monospace;
+}
+
+.description {
+  max-width: 300px;
+  font-size: 17px;
+  line-height: 25px;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Space Mono', monospace;
+}
+
+.btn_style {
+  margin: 40px 0px;
+  padding: 18px 30px;
+  border: none;
+  background-color: #333333;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: 'Space Mono', monospace;
+}
+
+.footer {
+  text-align: center;
+  color: #BDBDBD;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  .pagenot_found_body {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+  .right_side_panel {
+    padding: 20px;
+  }
+  .left_side_panel img {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
